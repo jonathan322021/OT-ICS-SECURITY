@@ -15,12 +15,12 @@ Role: OT Engineer
 
 Privileges:
 - Diagnostics
-- Log review
 - Service monitoring
+- Log review
 
 Restrictions:
-- No package installation
-- No user management
+- No software installation
+- No user creation
 
 ## OTOperator
 
@@ -28,8 +28,7 @@ Role: OT Operator
 
 Privileges:
 - Login access
-- Basic monitoring
 
 Restrictions:
 - No sudo access
-- No configuration changes
+- No system modifications
