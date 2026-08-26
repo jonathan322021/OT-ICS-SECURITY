@@ -11,3 +11,6 @@ Topics
  Asset Inventory
  Asset Owner
  Asset Criticality
+| Asset | IP | Zone | Purdue Level | Purpose |
+|---------|---------|---------|---------|---------|
+| OpenPLC | 192.168.20.10 | OT | Level 1 | PLC |
