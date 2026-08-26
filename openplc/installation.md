@@ -26,3 +26,20 @@ Industrial Controller (PLC)
 - Zones
 - Conduits
 - Restricted Data Flow
+## Installation Issue #001
+
+OpenPLC installation failed due to CMake compatibility requirements.
+
+### Error
+
+Compatibility with CMake < 3.5 has been removed.
+
+### Actions
+
+- Verified network connectivity
+- Updated Ubuntu packages
+- Investigating OpenPLC build requirements
+
+### Lessons Learned
+
+Industrial software often has dependency constraints and may require specific operating system versions.
