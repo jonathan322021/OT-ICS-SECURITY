@@ -1,22 +1,28 @@
-Day 3 - OpenPLC Installation
-Practical
-Create VM
- VM Created
- Connected to OT Zone
- Static IP Assigned
-Configuration
-Plain Text
-1
+
+## Asset Information
+
 Hostname: openplc
-2
- 
-3
+
 IP: 192.168.20.10
-4
- 
-5
+
 Zone: OT
-Show more lines
-Validation
- OpenPLC Web Interface Accessible
- Asset Added to Inventory
+
+Purdue Level: 1
+
+## Purpose
+
+Industrial Controller (PLC)
+
+## Installation Steps
+
+1. Installed Ubuntu Server
+2. Assigned static IP
+3. Installed OpenPLC
+4. Verified Web Interface
+
+## IEC 62443 Mapping
+
+- Asset Identification
+- Zones
+- Conduits
+- Restricted Data Flow
