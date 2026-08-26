@@ -1,12 +1,7 @@
-Theory
-Topics
- Purdue Level 0
- Purdue Level 1
- Purdue Level 2
- Purdue Level 3
- Purdue Level 4
-Study Questions
- Where does OpenPLC belong?
- Where does SCADA belong?
- Where does the Jump Server belong?
- Where does the Admin PC belong?
+Level 4 -> Admin PC
+
+Level 3 -> Jump Server
+
+Level 1 -> OpenPLC
+
+Level 0 -> Future Sensors
