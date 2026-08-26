@@ -43,3 +43,41 @@ Compatibility with CMake < 3.5 has been removed.
 ### Lessons Learned
 
 Industrial software often has dependency constraints and may require specific operating system versions.
+
+## Status
+4
+ 
+5
+In Progress
+6
+ 
+7
+## Issue Encountered
+8
+ 
+9
+OpenPLC installation failed on Ubuntu 26.04.1 LTS.
+10
+ 
+11
+### Error
+12
+ 
+13
+Compatibility with CMake < 3.5 has been removed.
+14
+ 
+15
+### Root Cause
+16
+ 
+17
+OpenPLC v3 build scripts are not fully compatible with CMake 4.2.3.
+18
+ 
+19
+### Resolution
+20
+ 
+21
+Deploy OpenPLC using Ubuntu 22.04 LTS.
