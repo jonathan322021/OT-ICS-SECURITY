@@ -81,3 +81,19 @@ OpenPLC v3 build scripts are not fully compatible with CMake 4.2.3.
  
 21
 Deploy OpenPLC using Ubuntu 22.04 LTS.
+
+## Installation Issue #002
+
+OpenPLC webserver failed to start due to Python dependency conflicts.
+
+Error:
+
+ImportError: cannot import name 'Markup' from 'jinja2'
+
+Root Cause:
+
+Version incompatibility between Flask, Jinja2 and MarkupSafe.
+
+Resolution:
+
+Create dedicated Python virtual environment and install compatible package versions.
